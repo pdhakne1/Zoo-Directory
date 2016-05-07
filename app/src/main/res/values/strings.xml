@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Zoo Directory</string>
+    <string name="action_settings">Information</string>
+    <string name="action_uninstall">Uninstall</string>
+</resources>

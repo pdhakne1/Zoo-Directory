@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pallavi.zoodirectory.ZooInformation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColor="#FF4081"
+        android:id="@+id/zooName"
+        android:text=" Welcome to Happy Zoo !!!!"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Contact Us:"
+        android:textColor="#FFFACD"
+        android:textStyle="bold"
+        android:id="@+id/zooContactLabel"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:textStyle="italic|"
+        android:text="8888888888"
+        android:id="@+id/zooContact"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/zooImage"
+        android:src="@drawable/zoo"
+        android:adjustViewBounds="true"/>
+
+</LinearLayout>
